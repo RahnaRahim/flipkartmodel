@@ -9,28 +9,25 @@
     <link rel="stylesheet" href="flip.css">
 </head>
 <body style="background-color: whitesmoke;">
-    <div class="container col-lg col-md col-sm col-xl">
+    <div class="container ">
     <nav class="navbar navbar-expand-lg " style="background-color: white;">
         <div class="container-fluid">
           <a class="navbar-brand" href="https://www.flipkart.com/"> <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/flipkart-095e08.svg" alt="Bootstrap" width="80" height="20" style="padding:0px;"></a>
           <form class="d-flex" role="search">
-            <input class="form-control me-4" type="search" placeholder="Search for Products,Brands and More" aria-label="Search" style="width: 400px;">
-          </form>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <input class="form-control me-4" type="search" placeholder="Search for Products,Brands and More" aria-label="Search" id="inp">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"  id="toggle">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#" ><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/Store-9eeae2.svg
                     " alt="">Become a Seller</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#" ><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/profile-815786.svg" alt="">Sign in</a>
-              
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
-                </a>
+                <a class="nav-link dropdown-toggle  text-dark " href="#" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false" ><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/profile-815786.svg" alt="">Sign in</a>
+              
                 <ul class="dropdown-menu">
                     
                   <li><a class="dropdown-item" href="#" ><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/profile-815786.svg" alt="">My profile</a></li>
@@ -49,7 +46,7 @@
       </nav>
     </div>
 
-      <div class="container col-xl col-lg col-md col-sm" style="width: 100%;">
+      <div class="container " style="width: 100%;">
         <div class="sections">
 
             <div class="mobiles">
@@ -98,59 +95,44 @@
         
             </div>
         
-        
-        
-            
-        
-        
         </div></div>
         
-
-        <div class="container col-md col-xl col-lg col-sm">
-          <div class="section2">
-            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-              </div>
+<br>
+        
+        <section id="Carausal">
+          <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="500">
-                  <img src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/b91142ce378acb54.jpg?q=20" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item" data-bs-interval="500">
-                  <img src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/47a8ea6a358699bd.jpg?q=20" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item " data-bs-interval="500">
-                  <img src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/2dc3aafcc8afbaf8.jpg?q=20" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item " data-bs-interval="500">
-                  <img src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/dd7f425c6a2fa49a.jpg?" class="d-block w-100" alt="...">
-                </div>
+                  <div class="carousel-item active" data-bs-interval="2000">
+                      <img src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/b91142ce378acb54.jpg?q=20" class="d-block w-100" alt="No Image">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                      <img src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/2dc3aafcc8afbaf8.jpg?q=20" class="d-block w-100" alt="No image">
+                  </div>
+                  <div class="carousel-item">
+                      <img src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/dd7f425c6a2fa49a.jpg?" class="d-block w-100" alt="No image">
+                  </div>
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
               </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
               </button>
-            </div>
-
           </div>
-
-        </div>
-
-        <div class="container col-lg col-md col-sm col-xl">
+  
+      </section>
+        <div class="container ">
          
           <div class="section3">
             <div class="heading">
             <div class="head">
             <h3>Best of Electronics</h3></div>
             <div class="main-btn">
-              <a href="https://www.flipkart.com/offers-list/content?screen=dynamic&pk=themeViews%3DDT-OMU-1%3ADealcard~widgetType%3DdealCard~contentType%3Dneo&wid=2.dealCard.OMU" class="btn1" target="_blank">View More</a>
+              <a href="https://www.flipkart.com/offers-list/content?screen=dynamic&pk=themeViews%3DDT-OMU-1%3ADealcard~widgetType%3DdealCard~contentType%3Dneo&wid=2.dealCard.OMU" class="btn2" target="_blank" id="best">View More</a>
 
           </div></div>
             <div class="pro">
@@ -160,14 +142,14 @@
             
             <div class="one">
               <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/monitor/2/f/c/-original-imagsemasfdpekgm.jpeg?q=70">
-              <br><br><br>
+              <br><br>
               <p>Monitors</p>
               <a href="https://www.flipkart.com/search?q=monitors&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off"><h5>From ₹8999</h5></a>
 
             </div>
             <div class="one">
               <img src="https://rukminim2.flixcart.com/image/416/416/k4a7c7k0/printer/y/j/z/canon-e3370-original-imafn2wyyxjjvzd6.jpeg?q=70" alt="No image">
-              <br><br><br><br>
+              <br><br><br>
               <p>Printers</p>
              <a href="https://www.flipkart.com/search?q=printers&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off"> <h5>From ₹3999</h5></a>
 
@@ -191,14 +173,14 @@
 
         </div>
 
-        <div class="container col-lg col-md col-sm col-xl">
+        <div class="container ">
          
           <div class="section3">
             <div class="heading">
             <div class="head">
             <h3>Beauty,Foods,Toys & More</h3></div>
             <div class="main-btn1">
-              <a href="https://www.flipkart.com/offers-list/beauty-food-toys-more?screen=dynamic&pk=themeViews%3DDT-OMU-2%3ADeal-DT~widgetType%3DdealCard~contentType%3Dneo" class="btn1" target="_blank">View More</a>
+              <a href="https://www.flipkart.com/offers-list/beauty-food-toys-more?screen=dynamic&pk=themeViews%3DDT-OMU-2%3ADeal-DT~widgetType%3DdealCard~contentType%3Dneo" class="btn2" target="_blank">View More</a>
 
           </div></div>
             <div class="pro">
@@ -246,7 +228,7 @@
             <div class="head">
             <h3>Home & Kitchen Essentials</h3></div>
             <div class="main-btn1">
-              <a href="https://www.flipkart.com/offers-list/home-kitchen-essentials?screen=dynamic&pk=themeViews%3DDT-OMU-4%3ADeal~widgetType%3DdealCard~contentType%3Dneo" class="btn1" target="_blank">View More</a>
+              <a href="https://www.flipkart.com/offers-list/home-kitchen-essentials?screen=dynamic&pk=themeViews%3DDT-OMU-4%3ADeal~widgetType%3DdealCard~contentType%3Dneo" class="btn2" target="_blank">View More</a>
 
           </div></div>
             <div class="pro">
@@ -270,7 +252,7 @@
             </div>
             <div class="one">
               <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/outdoor-set/p/6/8/10-off-white-4-0-wicker-600-d-12-4-1-beige-spyder-craft-790-original-imagj7gze78gfjpk.jpeg?q=70" alt="No image">
-              <br><br><br><br><br>
+              <br><br><br><br>
               <p>Outdoor sets</p>
              <a href="https://www.flipkart.com/search?q=Outdoor%20sets&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off"> <h5>Upto 30% off</h5></a>
 
@@ -287,13 +269,13 @@
 
         </div>
 
-        <div class="container col-lg col-md col-sm col-xl">
+        <div class="container ">
           <div class="row">
             <div class="col-6" id="col1" style="background-color: rgb(255, 255, 255);">
               <div class="heading">
                 <div class="head">
                 <h3 class="hh">Festive Giftings</h3></div>
-                <div class="main-btn2">
+                <div class="main-btn3">
                   <a href="https://www.flipkart.com/offers-list/recommended-for-you?screen=dynamic&pk=contentTags%3DFestive_Collection_general~marketplace%3DFLIPKART~widgetType%3DdealCard~contentType%3DpersonalisedRecommendation%2FC5&marketplace=FLIPKART" class="btn1" target="_blank">View More</a>
     
               </div></div>
@@ -304,7 +286,7 @@
                  <a href="https://www.flipkart.com/search?q=wall%20clocks&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off"> <h4>Min 40% off</h4></a>
 
                 </div>
-                <div class="fest2">
+                <div class="fest1">
                   <img src="https://rukminim2.flixcart.com/image/416/416/kv9urgw0/showpiece-figurine/e/w/v/-original-imag87jhgxtqquhg.jpeg?q=70" alt="">
                   <p>Show pieces and decor</p>
                   <a href="https://www.flipkart.com/search?q=show%20pieces%20and%20decor&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off"><h4>Min 50% off</h4></a>
@@ -313,14 +295,14 @@
 
               </div><br><br><br>
               <div class="fest">
-                <div class="fest1">
+                <div class="fest2">
                   <img src="https://rukminim2.flixcart.com/image/416/416/kz7bcsw0/artificial-plant/c/s/z/11-yes-4potss-ryme-original-imagb9zw4msbftaw.jpeg?q=70" alt=""><br>
                   <p>Artificial Plants</p>
                   <a href="https://www.flipkart.com/search?q=artificial%20plants&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off"><h4>Min 60% off</h4></a>
 
                 </div>
                 <div class="fest2">
-                  <img src="https://rukminim2.flixcart.com/image/416/416/j3lwh3k0/diary-notebook/4/u/z/pranjals-house-diary-original-imaeupd4fzcpng8a.jpeg?q=70" alt=""><br><br>
+                  <img src="https://rukminim2.flixcart.com/image/416/416/j3lwh3k0/diary-notebook/4/u/z/pranjals-house-diary-original-imaeupd4fzcpng8a.jpeg?q=70" alt=""><br>
                   <p>Handcrafted</p>
                   <a href="https://www.flipkart.com/search?q=handcrafted%20books&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off"><h4>Min 30% off</h4></a>
 
@@ -331,7 +313,7 @@
               <div class="heading">
                 <div class="head">
                 <h3 class="hh" id="th">Sports Essentials</h3></div>
-                <div class="main-btn2">
+                <div class="main-btn3">
                   <a href="https://www.flipkart.com/offers-list/sports-healthcare-more?screen=dynamic&pk=themeViews%3DDT-OMU-3%3ADeal-DT~widgetType%3DdealCard~contentType%3Dneo" class="btn1" target="_blank" id="sport-btn">View More</a>
     
               </div></div>
@@ -342,8 +324,8 @@
                  <a href="https://www.flipkart.com/search?q=bottle%20shaker&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off"> <h4>Min 40% off</h4></a>
 
                 </div>
-                <div class="fest2"><br>
-                  <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/skipping-rope/2/9/6/for-men-women-children-jump-rope-for-exercise-workout-eva-skip2-original-imagub4d7t8vgvtz.jpeg?q=70" alt=""><br><br>
+                <div class="fest1" id="jump"><br>
+                  <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/skipping-rope/2/9/6/for-men-women-children-jump-rope-for-exercise-workout-eva-skip2-original-imagub4d7t8vgvtz.jpeg?q=70" alt="">
                   <p>Jump Rope</p>
                   <a href="https://www.flipkart.com/search?q=jump%20rope&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off"><h4>Min 80% off</h4></a>
 
@@ -351,14 +333,14 @@
 
               </div><br><br>
               <div class="fest">
-                <div class="fest1">
-                  <img src="https://rukminim2.flixcart.com/image/416/416/kkprmvk0/support/o/b/v/both-free-size-2-pack-knee-brace-compression-sleeve-support-original-imagyy9vrtbhhynu.jpeg?q=70" alt=""><br><br>
+                <div class="fest2">
+                  <img src="https://rukminim2.flixcart.com/image/416/416/kkprmvk0/support/o/b/v/both-free-size-2-pack-knee-brace-compression-sleeve-support-original-imagyy9vrtbhhynu.jpeg?q=70" alt="">
                   <p>Compression Sleeve</p>
                   <a href="https://www.flipkart.com/search?q=compression%20sleeve&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off"><h4>Min 60% off</h4></a>
 
                 </div>
                 <div class="fest2">
-                  <img src="https://rukminim2.flixcart.com/image/416/416/l09w8sw0/racquet/a/q/c/g3-8-89-cm-excellent-badminton-racket-set-of-2-strung-2-90-95-original-imagc3zydgdxb8gh.jpeg?q=70" alt=""><br><br>
+                  <img src="https://rukminim2.flixcart.com/image/416/416/l09w8sw0/racquet/a/q/c/g3-8-89-cm-excellent-badminton-racket-set-of-2-strung-2-90-95-original-imagc3zydgdxb8gh.jpeg?q=70" alt=""><br>
                   <p>Badminton</p>
                   <a href="https://www.flipkart.com/search?q=badminton&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off&as-pos=1&as-type=HISTORY"><h4>Min 70% off</h4></a>
 
@@ -370,7 +352,7 @@
           
         </div>
 
-        <div class="container col-lg col-md col-sm col-xl">
+        <div class="container ">
           <div class="footer">
             <div class="footer-class">
 
@@ -433,7 +415,7 @@
        </div>
          
 
-      </div><div class="container col-lg col-md col-sm col-xl">
+      </div><div class="container ">
       <div class="copyright">
       <p>  &copy;2007-2023 Flipkart.com</p>
 
